@@ -11,11 +11,11 @@ def preprocess(
     tokenizer: PreTrainedTokenizer,
     max_length: int = 256
 ) -> Dict[str, List[Any]]:
-    """
-    Batch-tokenize QA examples for causal LM training.
-    Builds prompt+answer sequences, pads/truncates to max_length,
-    and masks prompt tokens in labels with -100.
-    """
+    
+    # Batch-tokenize QA examples for causal LM training.
+    # Builds prompt+answer sequences, pads/truncates to max_length,
+    # and masks prompt tokens in labels with -100.
+    
     questions = examples.get("question", [])
     answers = examples.get("answers", [])
 

@@ -1,4 +1,4 @@
-# Cell X: Define manual_eval()
+# manual_eval()
 import torch, gc
 from tqdm.auto import tqdm
 import evaluate
