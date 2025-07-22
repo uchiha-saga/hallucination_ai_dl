@@ -42,6 +42,13 @@ Here are the methods that we are exploring:
 We will be using HalluLens : LLM Hallucination Benchmark, which is a comprehensive suite which will help us distinguish extrinsic
 vs intrinsic hallucinations.
 
+## Authors
+
+1. Alejandro Danies-Lopez
+2. Benjamin Klassen
+3. Gaurang Kamat
+4. Jigyan (Joy) Xu
+
 ## References:
 
 1. SM Tonmoy, SM Zaman, Vinija Jain, Anku Rani, Vipula Rawte, Aman Chadha, and Amitava Das, “A comprehensive survey of hallucination mitigation techniques
